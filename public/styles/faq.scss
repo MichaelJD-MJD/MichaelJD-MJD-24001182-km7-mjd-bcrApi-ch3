@@ -1,0 +1,21 @@
+.faq-container {
+    h3 {
+        font-size: 24px;
+        font-weight: bold;
+    }
+    p {
+        font-size: 14px;
+        font-weight: 100;
+    }
+    .accordion-header {
+        border: 1px solid #D4D4D4;
+    }
+    @media (max-width: 767px) {
+        h3 {
+            text-align: center;
+        }
+        p {
+            text-align: center;
+        }
+      }
+}

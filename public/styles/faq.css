@@ -1,0 +1,19 @@
+.faq-container h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.faq-container p {
+  font-size: 14px;
+  font-weight: 100;
+}
+.faq-container .accordion-header {
+  border: 1px solid #D4D4D4;
+}
+@media (max-width: 767px) {
+  .faq-container h3 {
+    text-align: center;
+  }
+  .faq-container p {
+    text-align: center;
+  }
+}/*# sourceMappingURL=faq.css.map */

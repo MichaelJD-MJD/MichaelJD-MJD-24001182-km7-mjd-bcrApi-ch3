@@ -1,0 +1,27 @@
+.footer-container {
+  p {
+    font-size: 14px;
+    font-weight: 100;
+  }
+  .footer-nav {
+    li {
+        list-style-type: none;
+        padding-bottom: 5px;
+      }
+    a {
+        text-decoration: none;
+        color: black;
+    }
+  }
+
+
+  @media (max-width: 767px) {
+    .footer-nav{
+        margin-bottom: 5px;
+    }
+    .footer-sosmed{
+        margin-bottom: 15px;
+    }
+  }
+  
+}

@@ -1,0 +1,23 @@
+.services-container {
+  h3 {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 36px;
+  }
+  p {
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 24px;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+  .services {
+    list-style-type: none;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 48px;
+  }
+}

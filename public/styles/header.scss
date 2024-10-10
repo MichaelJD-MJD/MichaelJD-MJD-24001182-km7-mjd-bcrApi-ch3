@@ -1,0 +1,28 @@
+.header-container {
+
+  .teks-container {
+    h3 {
+      font-size: 36px;
+      font-weight: bold;
+    }
+    p {
+      font-size: 14px;
+      font-weight: 100;
+    }
+    .start-btn {
+      background-color: #5cb85f;
+      color: #ffffff;
+      text-decoration: none;
+
+      &:hover {
+        background-color: #75ca78;
+        color: #ffffff;
+      }
+    }
+  }
+  .car-img {
+    max-width: 100%;
+    height: auto; 
+    object-fit: contain; 
+}
+}

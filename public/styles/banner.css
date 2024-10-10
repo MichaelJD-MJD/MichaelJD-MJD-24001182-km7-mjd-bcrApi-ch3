@@ -1,0 +1,23 @@
+.banner-container .banner-content {
+  background-color: #0D28A6;
+  color: white;
+}
+.banner-container h2 {
+  font-size: 36px;
+  font-weight: bold;
+  padding: 10px;
+}
+.banner-container p {
+  font-size: 14px;
+  font-weight: 100;
+  padding: 10px;
+}
+.banner-container .start-btn {
+  background-color: #5cb85f;
+  color: #ffffff;
+  text-decoration: none;
+}
+.banner-container .start-btn:hover {
+  background-color: #75ca78;
+  color: #ffffff;
+}/*# sourceMappingURL=banner.css.map */

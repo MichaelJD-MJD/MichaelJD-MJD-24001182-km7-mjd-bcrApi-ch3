@@ -1,0 +1,43 @@
+.hasil-container h6 {
+  font-size: 14px;
+  font-weight: 100;
+}
+.hasil-container h5 {
+  font-size: 16px;
+  font-weight: bold;
+}
+.hasil-container p {
+  font-size: 14px;
+  font-weight: 100;
+}
+.hasil-container .msg {
+  color: #8a8a8a;
+  font-weight: 100;
+}
+.hasil-container .card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.hasil-container .card .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+.hasil-container .card .card-text {
+  min-height: 50px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.hasil-container .card .card-img {
+  max-width: 100%;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.hasil-container .card .pilih-btn {
+  display: block;
+  background-color: #5cb85f;
+  color: #ffffff;
+}/*# sourceMappingURL=hasil.css.map */
