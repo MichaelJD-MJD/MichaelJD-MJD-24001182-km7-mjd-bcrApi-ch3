@@ -37,9 +37,6 @@ exports.createCar = (data) => {
 
   cars.push(newCar);
 
-  // save ke file cars.json
-//   const filePath = path.join(__dirname, "data", "cars.json");
-
   fs.writeFileSync(
     "./public/data/cars.json",
     JSON.stringify(cars, null, 2),
@@ -63,9 +60,6 @@ exports.updateCar = (id, data) => {
 
     cars.splice(carIndex, 1, updateCar);
 
-    // save ke file cars.json
-    // const filePath = path.join(__dirname, "data", "cars.json");
-
      fs.writeFileSync(
        "./public/data/cars.json",
        JSON.stringify(cars, null, 2),
@@ -80,9 +74,6 @@ exports.deleteCarById = (id) => {
   const carIndex = cars.findIndex((car) => car.id === id);
   if (carIndex !== -1) {
     const deletedCar = cars.splice(carIndex, 1);
-
-    // save ke file cars.json
-    // const filePath = path.join(__dirname, "data", "cars.json");
 
     fs.writeFileSync(
       "./public/data/cars.json",

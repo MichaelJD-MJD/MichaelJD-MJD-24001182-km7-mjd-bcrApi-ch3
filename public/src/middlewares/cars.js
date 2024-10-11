@@ -4,7 +4,17 @@ const { BadRequestError } = require("../utils/request");
 exports.validateGetCars = (req, res, next) => {
   if (Object.keys(req.query).length > 0) {
     const validateQuery = z.object({
-      plate: z.string(),
+      plate: z.string().nullable().optional(),
+      manufacture: z.string().nullable().optional(),
+      model: z.string().nullable().optional(),
+      rentPerDay: z.coerce.number().nullable().optional(),
+      capacity: z.coerce.number().nullable().optional(),
+      description: z.string().nullable().optional(),
+      availableAt: z.string().nullable().optional(),
+      transmission: z.string().nullable().optional(),
+      available: z.coerce.boolean().nullable().optional(),
+      type: z.string().nullable().optional(),
+      year: z.coerce.number().nullable().optional(),
     });
 
     const resultValidateQuery = validateQuery.safeParse(req.query);

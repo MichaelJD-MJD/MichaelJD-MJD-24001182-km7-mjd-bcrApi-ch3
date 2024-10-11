@@ -803,18 +803,77 @@
     ]
   },
   {
-    "id": "8de7f695-5668-497b-8c91-dda02cda269f",
-    "plate": "BG-1234",
-    "manufacture": "Hondaha",
+    "id": "57638c7d-9d98-4fdb-ac75-155ca8c1f193",
+    "plate": "BG-5678",
+    "manufacture": "Honda",
     "model": "Civic",
-    "rentPerDay": "210000",
-    "capacity": "6",
+    "rentPerDay": 210002,
+    "capacity": 6,
     "description": "Mobil nya gacor nyaman banget",
     "availableAt": "2022-03-23T15:49:05.563Z",
     "transmission": "CVT",
-    "available": "false",
+    "available": true,
     "type": "Wagon",
-    "year": "2015",
-    "image": "https://ik.imagekit.io/mjd/car07.min_uXtbefPWS.jpg"
+    "year": 2015,
+    "options": [
+      "opsi1",
+      "opsi2",
+      "opsi3"
+    ],
+    "specs": [
+      "spec1",
+      "spec2",
+      "spec3"
+    ],
+    "image": "https://ik.imagekit.io/mjd/car07.min_I4Ky5EYt-.jpg"
+  },
+  {
+    "id": "cc2619ad-f55f-477e-b379-2856f771b5b4",
+    "plate": "BG-1234",
+    "manufacture": "Honda",
+    "model": "Civic",
+    "rentPerDay": 200000,
+    "capacity": 6,
+    "description": "Mobil nya gacor nyaman banget",
+    "availableAt": "2022-03-23T15:49:05.563Z",
+    "transmission": "CVT",
+    "available": true,
+    "type": "Wagon",
+    "year": 2015,
+    "options": [
+      "opsi1",
+      "opsi2",
+      "opsi3"
+    ],
+    "specs": [
+      "spec1",
+      "spec2",
+      "spec3"
+    ],
+    "image": "https://ik.imagekit.io/mjd/car05.min_qlsxHJLUr.jpg"
+  },
+  {
+    "id": "43d81bd2-f1b0-4589-b0a1-66126ca91f03",
+    "plate": "BG-12345",
+    "manufacture": "Honda",
+    "model": "Civic",
+    "rentPerDay": 200000,
+    "capacity": 6,
+    "description": "Mobil nya gacor nyaman banget",
+    "availableAt": "2022-03-23T15:49:05.563Z",
+    "transmission": "CVT",
+    "available": true,
+    "type": "Wagon",
+    "year": 2015,
+    "options": [
+      "opsi1",
+      "opsi2",
+      "opsi3"
+    ],
+    "specs": [
+      "spec1",
+      "spec2",
+      "spec3"
+    ]
   }
 ]

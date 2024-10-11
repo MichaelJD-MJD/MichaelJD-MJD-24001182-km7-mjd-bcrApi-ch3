@@ -21,7 +21,7 @@ exports.getCarById = (id) => {
 
 exports.createCar = async(data, file) => {
   // upload file to image kit
-  if(file.image){
+  if(file?.image){
     data.image = await imageUpload(file.image);
   }
 
@@ -30,7 +30,7 @@ exports.createCar = async(data, file) => {
 
 exports.updateCar = async(id, data, file) => {
   // cek apakah ada file yang diupload
-  if(file.image){
+  if(file?.image){
     data.image = await imageUpload(file.image);
   }
 
